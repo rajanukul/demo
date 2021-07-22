@@ -1,0 +1,121 @@
+*{
+    margin: 0vh;
+    padding: 0vh;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.5vh;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://cdn.pixabay.com/photo/2015/05/12/06/19/study-763571_1280.jpg);
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: left;
+    list-style-type: none;
+    margin-top: 2vh;
+}
+ul li{
+    display: inline-block
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: vh 5vh;
+    border: 0.3vh solid grey;
+    transition: 0.6s;
+}
+ul li a:hover{
+    background-color:gray;
+    color: #000;
+}
+.main{
+    max-width: 182.6vh;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: #fff;
+    font-size: 15vh
+}
+.icon{
+    position: absolute;
+    top: 61%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 1vh 4.5vh;
+    color: whitesmoke;
+    text-decoration: none;
+}
+.icon a{
+    color: whitesmoke;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.icon a:hover{
+    color: tomato;
+}
+
+.group{
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.grp{
+    border: 0.15vh solid #fff;
+    padding: 1vh 4vh;
+    color: #fff;
+    text-decoration: none;
+    }
+
+
+body{
+    margin: 0vh;
+    padding: 0vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+footer{
+    background: #404040;
+    padding: 90px 0;
+    height: 13vh;
+}
+.footerr{
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+.social{
+    margin: 20px 0;
+
+}
+.social a{
+    color: whitesmoke;
+    margin-right: 10px;
+    font-size: 22px;
+    text-decoration: none;
+    transition: .3s linear;
+}
+.social a:hover{
+    color: tomato;
+}
+@media screen and(max-width:700px) {
+    .footerr{
+        max-width: 600px;
+    }
+    .left{
+        width: 100%;
+        text-align: center;
+    }
+    }
+}
+
